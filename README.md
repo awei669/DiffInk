@@ -7,7 +7,7 @@
 ## Overview of TOHG
 <div align="justify">
 
-Text-to-online handwriting generation(TOHG) refers to the task of synthesizing realistic pen trajectories $(G_i)$ conditioned on textual content $(T)$ and style reference $(S_i)$.
+Text-to-Online Handwriting Generation (TOHG) refers to the task of synthesizing realistic pen trajectories $(G_i)$ conditioned on textual content $(T)$ and style reference $(S_i)$.
 
 </div>
 
