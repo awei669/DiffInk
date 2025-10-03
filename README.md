@@ -1,5 +1,9 @@
 # DiffInk: Glyph- and Style-Aware Latent Diffusion Transformer for Text to Online Handwriting Generation
 
+### News
+- Paper can be found at [arxiv](https://www.arxiv.org/pdf/2509.23624)
+- More updates coming soon...
+
 ### Overview of TOHG
 <div align="justify">
 
@@ -21,4 +25,4 @@ Text-to-online handwriting generation (TOHG) refers to the task of synthesizing 
 ![Comparison of Methods](/imgs/methods_compare.png)
 
 
-Paper can be found at https://www.arxiv.org/pdf/2509.23624
+
