@@ -24,9 +24,10 @@ Text-to-online handwriting generation (TOHG) refers to the task of synthesizing 
 
 ## Notification
 ```bibtex
-@article{pan2025diffink,
+@inproceedings{pan2026diffink,
   title={DiffInk: Glyph-and Style-Aware Latent Diffusion Transformer for Text to Online Handwriting Generation},
   author={Pan, Wei and He, Huiguo and Cheng, Hiuyi and Shi, Yilin and Jin, Lianwen},
-  journal={arXiv preprint arXiv:2509.23624},
-  year={2025}
+  booktitle={The Fourteenth International Conference on Learning Representations},
+  year={2026},
+  url={https://openreview.net/forum?id=XKOEQFKFdL}
 }
