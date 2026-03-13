@@ -1,6 +1,7 @@
 # DiffInk: Glyph- and Style-Aware Latent Diffusion Transformer for Text to Online Handwriting Generation
 
 ## Updates
+- [2026/3/13] The code is currently being organized.
 - [2026/1/29] DiffInk is accepted by ICLR 2026 🎉🎉🎉.
 - [2025/10/1] Paper can be found at [arxiv](https://www.arxiv.org/pdf/2509.23624).
 
@@ -27,7 +28,16 @@ Text-to-Online Handwriting Generation (TOHG) refers to the task of synthesizing 
   <img src="/imgs/methods_compare.png" alt="Overview of TOHG" width="70%">
 </div>
 
-## Notification
+
+## Copyright
+
+This repository is provided for non-commercial research purposes only; for commercial use, please contact Prof. Lianwen Jin (eelwjin@scut.edu.cn).
+
+For any issues encountered during use, please open an issue or contact Wei Pan (eewpan@mail.scut.edu.cn).
+
+## Citation
+If you find this work useful or use this code in your research, please consider citing the following paper.
+
 ```bibtex
 @inproceedings{pan2026diffink,
   title={DiffInk: Glyph- and Style-Aware Latent Diffusion Transformer for Text to Online Handwriting Generation},
@@ -36,3 +46,5 @@ Text-to-Online Handwriting Generation (TOHG) refers to the task of synthesizing 
   year={2026},
   url={https://openreview.net/forum?id=XKOEQFKFdL}
 }
+```
+
