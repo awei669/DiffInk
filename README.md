@@ -29,11 +29,11 @@ Text-to-Online Handwriting Generation (TOHG) refers to the task of synthesizing 
 </div>
 
 
-## Copyright
+<!-- ## Copyright
 
 This repository is provided for non-commercial research purposes only; for commercial use, please contact Prof. Lianwen Jin (eelwjin@scut.edu.cn).
 
-For any issues encountered during use, please open an issue or contact Wei Pan (eewpan@mail.scut.edu.cn).
+For any issues encountered during use, please open an issue or contact Wei Pan (eewpan@mail.scut.edu.cn). -->
 
 ## Citation
 If you find this work useful or use this code in your research, please consider citing the following paper.
