@@ -1,7 +1,7 @@
 # DiffInk: Glyph- and Style-Aware Latent Diffusion Transformer for Text to Online Handwriting Generation
 
 ## Updates
-- [2026/3/21] The code has been released.
+- [2026/3/21] Code and pretrained weights are released.
 - [2026/1/29] DiffInk is accepted by ICLR 2026 🎉🎉🎉.
 - [2025/10/1] Paper can be found at [arxiv](https://www.arxiv.org/pdf/2509.23624).
 
@@ -28,6 +28,25 @@ Text-to-Online Handwriting Generation (TOHG) refers to the task of synthesizing 
   <img src="/imgs/methods_compare.png" alt="Overview of TOHG" width="70%">
 </div>
 
+
+## Usage
+
+### Data and Pretrained Weights
+
+Download the dataset and pretrained weights from [Google Drive](https://drive.google.com/drive/folders/1h_uLmn-55WmbSBGh1ES8-rftAbDs8riB?usp=drive_link).
+
+
+### Training
+
+- Train the **InkVAE** model with: `bash scripts/train_vae_ddp.sh`
+
+- Then, train the **InkDiT** model with: `bash scripts/train_dit_ddp.sh`
+
+- Finally, fine-tune the model on real data with: `bash scripts/tune_dit_ddp.sh`
+
+### Inference
+
+Run inference with: `CUDA_VISIBLE_DEVICES=0 python val_dit.py`
 
 <!-- ## Copyright
 
