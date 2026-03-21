@@ -1,0 +1,61 @@
+# configs/dit_config.yaml
+
+# VAE architecture
+in_channels: 5
+latent_dim: 384
+hidden_dims: [128, 256, 384]
+decoder_dims: [384, 256, 128]
+decoder_output_dim: 123
+num_text_embedding: 1000
+
+# Transformer decoder
+trans_hidden_dim: 256
+trans_num_heads: 4
+trans_num_layers: 3
+
+# OCR module
+ocr_hidden_dim: 384
+ocr_num_heads: 4
+ocr_num_layers: 3
+
+# Style classifier
+num_writer: 90
+style_classifier_dim: 384
+
+# Diffusion Transformer (DiT)
+dim: 896
+depth: 16
+heads: 14
+dim_head: 64
+dropout: 0.1
+ff_mult: 4
+text_dim: 512
+text_mask_padding: True
+conv_layers: 3
+long_skip_connection: False
+
+# Dataset and output paths
+train_file: './datas/train_val_400_100/train.h5'
+val_file: './datas/train_val_400_100/val.h5'
+text_file: './datas/meta/All_zi.json'
+writer_file: './datas/meta/selected_400_100.json'
+output_base: './outputs'
+
+
+# Pretrained checkpoints (VAE / OCR / Style / DiT)
+vae_model_path: './outputs/ink_vae_03_14_02_12/ckpt/vae_epoch_100.pt'
+dit_resume_ckpt: './outputs/ink_dit_03_14_13_59/ckpt/dit_epoch_1000.pt'
+
+# Training configuration
+tune_vae: ''
+train_batch_size: 90
+val_batch_size: 200
+num_epochs: 1
+val_every: 1
+save_every: 1
+
+# Optimizer settings
+base_lr: 7.5e-6
+min_lr: 1.0e-7
+betas: [0.9, 0.99]
+weight_decay: 0.0001

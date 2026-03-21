@@ -1,0 +1,50 @@
+# configs/vae_config.yaml
+
+# VAE architecture dimensions
+in_channels: 5
+latent_dim: 384
+hidden_dims: [128, 256, 384]
+decoder_dims: [384, 256, 128]
+decoder_output_dim: 123
+num_text_embedding: 1000
+
+# Transformer decoder
+trans_hidden_dim: 256
+trans_num_heads: 4
+trans_num_layers: 3
+
+# OCR module
+ocr_hidden_dim: 384
+ocr_num_heads: 4
+ocr_num_layers: 3
+
+# Style classifier
+num_writer: 1000
+style_classifier_dim: 384
+
+# Dataset and output paths
+train_file: './datas/train_val_400_100/train.h5'
+val_file: './datas/train_val_400_100/val.h5'
+text_file: './datas/meta/All_zi.json'
+writer_file: './datas/meta/selected_400_100.json'
+output_base: './outputs'
+
+# Loss weights
+kl_weight: 0.0000001
+gmm_weight: 0.1
+pen_weight: 1.0
+ctc_weight: 1.0
+style_weight: 0.1
+
+# Training configuration
+train_batch_size: 70
+val_batch_size: 64
+num_epochs: 100
+val_every: 50
+save_every: 20
+
+# Optimizer settings
+base_lr: 0.00015
+min_lr: 0.00001
+betas: [0.9, 0.99]
+weight_decay: 0.0001

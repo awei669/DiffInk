@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0,1 torchrun --nproc-per-node=2 --master-port=12345 ./tune_dit_ddp.py
