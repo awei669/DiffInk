@@ -58,7 +58,7 @@ This repository is provided for non-commercial research purposes only; for comme
 For any issues encountered during use, please open an issue or contact Wei Pan (eewpan@mail.scut.edu.cn). -->
 
 ## Acknowledgements
-- [ConvNeXt-V2](https://arxiv.org/abs/2301.00808), [DiT](https://arxiv.org/abs/2212.09748), [F5-TTS](https://github.com/swivid/f5-tts) and [WriteLikeU](https://onlinelibrary.wiley.com/doi/epdf/10.1111/cgf.142621) provide valuable inspiration for this work.
+- [ConvNeXt-V2](https://arxiv.org/abs/2301.00808), [DiT](https://arxiv.org/abs/2212.09748), [F5-TTS](https://arxiv.org/abs/2406.18009), [WriteLikeU](https://onlinelibrary.wiley.com/doi/epdf/10.1111/cgf.142621), and [OLHWG](https://arxiv.org/abs/2410.02309) provide valuable inspiration for this work.
 
 - [CASIA-OLHWDB](https://nlpr.ia.ac.cn/databases/handwriting/home.html) and [IAM-OnDB](https://fki.tic.heia-fr.ch/databases/iam-on-line-handwriting-database) datasets are valuable resources for this work.
 
