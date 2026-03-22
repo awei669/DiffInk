@@ -67,3 +67,6 @@ If you find this work useful or use this code in your research, please consider 
 }
 ```
 
+## Acknowledgements
+
+This work builds upon the open-source framework of [F5-TTS](https://github.com/swivid/f5-tts) and leverages the [CASIA-OLHWDB](https://nlpr.ia.ac.cn/databases/handwriting/home.html) dataset.
