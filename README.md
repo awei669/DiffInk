@@ -57,6 +57,11 @@ This repository is provided for non-commercial research purposes only; for comme
 
 For any issues encountered during use, please open an issue or contact Wei Pan (eewpan@mail.scut.edu.cn). -->
 
+### Acknowledgements
+- [ConvNeXt-V2](https://arxiv.org/abs/2301.00808), [DiT](https://arxiv.org/abs/2212.09748), [F5-TTS](https://github.com/swivid/f5-tts) and [WriteLikeU](https://onlinelibrary.wiley.com/doi/epdf/10.1111/cgf.142621) provide valuable inspiration for this work.
+
+- [CASIA-OLHWDB](https://nlpr.ia.ac.cn/databases/handwriting/home.html) and [IAM-OnDB](https://fki.tic.heia-fr.ch/databases/iam-on-line-handwriting-database) datasets are valuable resources for this work.
+
 ## Citation
 If you find this work useful or use this code in your research, please consider citing the following paper.
 
@@ -70,6 +75,6 @@ If you find this work useful or use this code in your research, please consider 
 }
 ```
 
-### Acknowledgements
+## License
 
-This work builds upon the open-source framework of [F5-TTS](https://github.com/swivid/f5-tts) and leverages the [CASIA-OLHWDB](https://nlpr.ia.ac.cn/databases/handwriting/home.html) dataset.
+Our code is released under the MIT License. The pretrained weights, which are trained using part of the CASIA-OLHWDB dataset, follow the [original license](https://nlpr.ia.ac.cn/databases/handwriting/Application_form.html) of the dataset.
