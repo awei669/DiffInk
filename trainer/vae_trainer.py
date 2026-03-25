@@ -156,7 +156,7 @@ def val_vae_one_batch(model, val_loader, epoch, device, save_path):
 
     with torch.no_grad():
         for p, batch in tqdm(enumerate(val_loader), desc=f"Epoch {epoch + 1}", unit="batch"):
-            data, mask, labels, char_points_idx = batch
+            data, mask, labels, char_points_idx, writer_id = batch
             data, mask = data.to(device), mask.to(device)
 
             data = data.permute(0, 2, 1)    # [B, T, 5] → [B, 5, T]
