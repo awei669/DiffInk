@@ -36,10 +36,8 @@ Text-to-Online Handwriting Generation (TOHG) refers to the task of synthesizing 
 
 ### Install
 
-First, create a new Conda environment with Python 3.8:
-`conda create -n diffink python=3.8 -y`
-Then, activate the environment and install the dependencies:
-`conda activate diffink && pip install -r requirements.txt`
+- Create environment:: `conda create -n diffink python=3.8 -y`
+- Install dependencies: `conda activate diffink && pip install -r requirements.txt`
 
 ### Data and Pretrained Weights
 
