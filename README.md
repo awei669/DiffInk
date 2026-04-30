@@ -41,8 +41,7 @@ Text-to-Online Handwriting Generation (TOHG) refers to the task of synthesizing 
 
 ### Data and Pretrained Weights
 
-Download the dataset and pretrained weights from [Google Drive](https://drive.google.com/drive/folders/1h_uLmn-55WmbSBGh1ES8-rftAbDs8riB?usp=drive_link).
-
+Download the dataset and pretrained weights from [Google Drive](https://drive.google.com/drive/folders/1h_uLmn-55WmbSBGh1ES8-rftAbDs8riB?usp=drive_link) or [Baidu Cloud](https://pan.baidu.com/s/1NhEoO_hIDOn2dC4qN1oe1A?pwd=ddra).
 
 ### Training
 
