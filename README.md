@@ -7,7 +7,7 @@
 - [2026/6/19] DiffMath is now on [arXiv](https://arxiv.org/abs/2606.19939), focusing on structured content generation.
 - [2026/3/21] Code and pretrained weights are released.
 - [2026/1/29] DiffInk is accepted by ICLR 2026 🎉🎉🎉.
-- [2025/10/1] Paper can be found at [arxiv](https://www.arxiv.org/pdf/2509.23624).
+- [2025/10/1] The DiffInk paper can be found at [arXiv](https://www.arxiv.org/pdf/2509.23624).
 
 
 ## Overview of TOHG
