@@ -4,6 +4,7 @@
 </h1>
 
 ## Updates
+- [2026/10/24] InkFormer is now on [TMLR 2026](https://openreview.net/forum?id=Nbhw2Y5Nmh&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DTMLR%2FAuthors%23your-submissions)), focusing on stylized handwritten character generation.
 - [2026/6/19] DiffMath is now on [arXiv](https://arxiv.org/abs/2606.19939), focusing on structured content generation.
 - [2026/3/21] Code and pretrained weights are released.
 - [2026/1/29] DiffInk is accepted by ICLR 2026 🎉🎉🎉.
